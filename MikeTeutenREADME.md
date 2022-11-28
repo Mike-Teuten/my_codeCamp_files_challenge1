@@ -2,4 +2,14 @@
 
 # My README file.
 
-This repo has been set up in order to rewrite the code on the supplied webpage.
+This repo has been set up in order to refactor the code on the supplied webpage.
+
+# TO DO
+
+# CSS
+    - Add var section to Root and include all useful variables.
+    - Concatinate all duplicated CSS blocks and use variables.
+
+# HTML
+    - Add title to <head>.
+    
