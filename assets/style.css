@@ -1,14 +1,16 @@
+/*These variables will make changes much easier and make code more readable*/
+
 :root {
     --body-bg-color: #d9dcd6;
     --header-bg-color: #2a607c;
     --side-bg-color: #2589bd;
-    --section-bg-color: #0072bb;
+    --article-bg-color: #0072bb;
     --text-color: ##fff;
     --nav-hover-bg-color: rgb(125, 159, 209);
-    --header-font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    --header-font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-
+/* ----Body--------*/
 * {
     box-sizing: border-box;
     padding: 0;
@@ -18,7 +20,9 @@
 body {
     background-color: var(--body-bg-color) ;
 }
+/*End body*/
 
+/*------Header--------*/
 .header {
     padding: 20px;
     font-family: var(--header-font-family);
@@ -31,8 +35,9 @@ body {
     font-size: 48px;
 }
 
+/*the seo color ia the same as the nav hover color*/
 .header h1 .seo {
-    color: #d9dcd6;
+    color: var(--nav-hover-bg-color);
 }
 
 .header div {
@@ -51,9 +56,11 @@ body {
     display: inline-block;
     margin-left: 25px;
 }
+/*End header*/
+
 
 a {
-    color: #ffffff;
+    color: var(--text-color);
     text-decoration: none;
 }
 
@@ -97,107 +104,39 @@ p {
     background-color: #2589bd;
 }
 
-.benefit-lead {
+.benefit {
     margin-bottom: 32px;
-    color: #ffffff;
+    color: var(--text-color);
 }
 
-.benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-lead h3 {
+.benefit h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-.benefit-brand h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
 
-.benefit-cost h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-lead img {
+.benefit img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
-.benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
 
-.benefit-cost img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.search-engine-optimization {
+.article-body {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
+    font-size: 36px;
+    background-color: var(--article-bg-color);
+    color: var(--text-color);
 }
 
-.online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.search-engine-optimization img {
+.article-img {
     max-height: 200px;
 }
 
-.online-reputation-management img {
-    max-height: 200px;
-}
 
-.social-media-marketing img {
-    max-height: 200px;
-}
-
-.search-engine-optimization h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
 
 .footer {
     padding: 30px;
