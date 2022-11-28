@@ -1,5 +1,3 @@
-/*These variables will make changes much easier and make code more readable*/
-
 :root {
     --body-bg-color: #d9dcd6;
     --header-bg-color: #2a607c;
@@ -101,7 +99,7 @@ p {
     width: 20%;
     height: 100%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #2589bd;
+    background-color: var(--side-bg-color);
 }
 
 .benefit {
